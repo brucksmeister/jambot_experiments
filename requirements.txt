@@ -1,0 +1,9 @@
+numpy
+pretty_midi
+mido
+tensorflow
+keras
+matplotlib
+progressbar2
+tqdm
+torch
