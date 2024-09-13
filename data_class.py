@@ -6,9 +6,9 @@ import os
 #import midi_functions as mf
 
 
-# settings
+
+#settings
 shifted = True
-colab_dir = 'content/JamBot_experiments/'
 
 shift_folder = ''
 if shifted:
@@ -17,18 +17,21 @@ if shifted:
 # If you only want to process a subfolder like '/A' or '/A/A' for tests
 subfolder = '/'
 
-source_folder = colab_dir + 'data/original' + subfolder
-tempo_folder1 = colab_dir + 'data/' + 'tempo' + subfolder
-histo_folder1 = colab_dir + 'data/' + 'histo' + subfolder
+source_folder = 'data/original' + subfolder
+tempo_folder1 = 'data/'  + 'tempo' + subfolder
+histo_folder1 = 'data/'  + 'histo' + subfolder
 
-tempo_folder2 = colab_dir + 'data/' + shift_folder + 'tempo' + subfolder
-shifted_folder = colab_dir + 'data/' + shift_folder + 'shifted' + subfolder
-pickle_folder = colab_dir + 'data/' + shift_folder + 'pianoroll' + subfolder
-roll_folder = colab_dir + 'data/' + shift_folder + 'indroll' + subfolder
-histo_folder2 = colab_dir + 'data/' + shift_folder + 'histo' + subfolder
-chords_folder = colab_dir + 'data/' + shift_folder + 'chords' + subfolder
-chords_index_folder = colab_dir + 'data/' + shift_folder + 'chord_index' + subfolder
-song_histo_folder = colab_dir + 'data/' + shift_folder + 'song_histo' + subfolder
+
+tempo_folder2 = 'data/' + shift_folder + 'tempo' + subfolder
+shifted_folder = 'data/' + shift_folder + 'shifted' + subfolder
+pickle_folder = 'data/' + shift_folder + 'pianoroll' + subfolder
+roll_folder = 'data/' + shift_folder + 'indroll' + subfolder
+histo_folder2 = 'data/' + shift_folder + 'histo' + subfolder
+chords_folder = 'data/' + shift_folder + 'chords' + subfolder
+chords_index_folder = 'data/' + shift_folder + 'chord_index' + subfolder
+song_histo_folder = 'data/' + shift_folder + 'song_histo' + subfolder
+
+
 
 dict_path = 'data/'
 chord_dict_name = 'chord_dict.pickle'
