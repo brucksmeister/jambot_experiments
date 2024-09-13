@@ -1,7 +1,8 @@
 
 # settings
+
+
 shifted = True
-colab_dir = 'content/JamBot_experiments/'
 
 shift_folder = ''
 if shifted:
