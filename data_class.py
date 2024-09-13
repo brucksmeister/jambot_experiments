@@ -18,20 +18,20 @@ if shifted:
 # If you only want to process a subfolder like '/A' or '/A/A' for tests
 subfolder = '/'
 
-source_folder = working_dir + 'data/original' + subfolder
-tempo_folder1 = working_dir + 'data/' + 'tempo' + subfolder
-histo_folder1 = working_dir + 'data/' + 'histo' + subfolder
+source_folder = os.path.join(working_dir, 'data','original') + subfolder
+tempo_folder1 = os.path.join(working_dir + 'data/' + 'tempo') + subfolder
+histo_folder1 = os.path.join(working_dir + 'data/' + 'histo') + subfolder
 
-tempo_folder2 = working_dir + 'data/' + shift_folder + 'tempo' + subfolder
-shifted_folder = working_dir + 'data/' + shift_folder + 'shifted' + subfolder
-pickle_folder = working_dir + 'data/' + shift_folder + 'pianoroll' + subfolder
-roll_folder = working_dir + 'data/' + shift_folder + 'indroll' + subfolder
-histo_folder2 = working_dir + 'data/' + shift_folder + 'histo' + subfolder
-chords_folder = working_dir + 'data/' + shift_folder + 'chords' + subfolder
-chords_index_folder = working_dir + 'data/' + shift_folder + 'chord_index' + subfolder
-song_histo_folder = working_dir + 'data/' + shift_folder + 'song_histo' + subfolder
+tempo_folder2 = os.path.join(working_dir, 'data', shift_folder, 'tempo') + subfolder
+shifted_folder = os.path.join(working_dir, 'data', shift_folder, 'shifted') + subfolder
+pickle_folder = os.path.join(working_dir, 'data', shift_folder, 'pianoroll') + subfolder
+roll_folder = os.path.join(working_dir, 'data', shift_folder, 'indroll') + subfolder
+histo_folder2 = os.path.join(working_dir, 'data', shift_folder, 'histo') + subfolder
+chords_folder = os.path.join(working_dir, 'data', shift_folder, 'chords') + subfolder
+chords_index_folder = os.path.join(working_dir, 'data', shift_folder, 'chord_index') + subfolder
+song_histo_folder = os.path.join(working_dir, 'data', shift_folder, 'song_histo') + subfolder
 
-
+source_folder
 
 
 
