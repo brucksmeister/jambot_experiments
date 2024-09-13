@@ -8,7 +8,7 @@ import os
 
 #settings
 shifted = True
-colab_dir = 'content/JamBot_experiments/'
+colab_dir = 'JamBot_experiments/'
 
 shift_folder = ''
 if shifted:
