@@ -1,9 +1,9 @@
 # Author: Jonas Wiesendanger wjonas@student.ethz.ch
-from settings import *
+#from settings import *
 import numpy as np
 import _pickle as pickle
 import os
-import midi_functions as mf
+#import midi_functions as mf
 
 
 def get_chord_train_and_test_set(train_set_size, test_set_size):

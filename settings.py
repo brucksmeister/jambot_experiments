@@ -25,17 +25,6 @@ song_histo_folder = 'data/' + shift_folder + 'song_histo' + subfolder
 
 
 
-# Test Paths:
-#source_folder = 'data/test'
-#tempo_folder = 'data/' + shift_folder + 'test_tempo'
-#pickle_folder = 'data/' + shift_folder + 'test_pianoroll'
-#roll_folder = 'data/' + shift_folder + 'test_indroll'
-#histo_folder = 'data/' + shift_folder + 'test_histo'
-#chords_folder = 'data/' + shift_folder + 'test_chords'
-#chords_index_folder = 'data/' + shift_folder + 'test_chord_index'
-#song_histo_folder = 'data/' + shift_folder + 'test_song_histo'
-#shifted_folder = 'data/' + shift_folder + 'test_shifted'
-
 
 dict_path = 'data/'
 chord_dict_name = 'chord_dict.pickle'

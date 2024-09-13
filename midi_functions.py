@@ -1,7 +1,7 @@
 #Imports
-from settings import *
+#from settings import *
 import numpy as np
-import midi_functions as mf
+#import midi_functions as mf
 import _pickle as pickle
 import os
 import sys
